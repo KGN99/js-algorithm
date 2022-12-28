@@ -14,6 +14,7 @@
 - String.fromCharCode(char) : 아스키 코드인 char를 문자로 반환
 - str.substring(n,m) : 문자열 n번부터 m-1번까지의 문자열로 반환
 - str.substr(n,2) : 문자열 n번부터 n번 다음 2번째까지의 문자열로 반환
+- str.indexOf(s) : str에서 s의 첫번째 인덱스 값 반환 없으면 -1 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
