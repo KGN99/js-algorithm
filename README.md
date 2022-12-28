@@ -2,6 +2,7 @@
 
 ### 팁
 
+- parseInt(f) : f를 Int로 형변환
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
 - arr.splice(i,1) : arr배열에서 i번째 요소를 1개 삭제
@@ -11,6 +12,8 @@
 - str.toLowerCase() : str문자를 소문자로 변경
 - str.charCodeAt() : str의 아스키 코드 반환
 - String.fromCharCode(char) : 아스키 코드인 char를 문자로 반환
+- str.substring(n,m) : 문자열 n번부터 m-1번까지의 문자열로 반환
+- str.substr(n,2) : 문자열 n번부터 n번 다음 2번째까지의 문자열로 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
