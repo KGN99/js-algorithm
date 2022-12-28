@@ -4,7 +4,7 @@
 
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 
-### Math[링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
+### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 - Math.ceil(n) : n의 소수점 자리를 올림 수 반환
 - Math.abs(n) : n의 절댓값 반환

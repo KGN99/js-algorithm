@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>출력결과</title>
+    </head>
+    <body>
+        <script>
+            function solution(arr){
+                let arr2 = [];
+                let sum = 0;
+                for (let v of arr){
+                    if (v % 2 !== 0) {
+                        arr2.push(v);
+                        sum += v;
+                    }
+                }
+                console.log(sum);
+                console.log(Math.min(...arr2));
+            }
+            
+            arr=[12, 77, 38, 41, 53, 92, 85];
+            solution(arr);
+        </script>
+    </body>
+</html>
