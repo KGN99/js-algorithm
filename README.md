@@ -6,6 +6,7 @@
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
 - arr.splice(i,1) : arr배열에서 i번째 요소를 1개 삭제
 - str.replace(/A/g,"#") : str문자열에서 A를 모두 #으로 바꿔서 반환
+- str.split("ex") : str문자열에서 "ex"를 기준으로 배열로 분리시켜서 반환 (마지막에 "" 추가됨)
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
