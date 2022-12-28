@@ -8,6 +8,7 @@
 - str.replace(/A/g,"#") : str문자열에서 A를 모두 #으로 바꿔서 반환
 - str.split("ex") : str문자열에서 "ex"를 기준으로 배열로 분리시켜서 반환 (마지막에 "" 추가됨)
 - str.toUpperCase() : str문자를 대문자로 변경
+- str.toLowerCase() : str문자를 소문자로 변경
 - str.charCodeAt() : str의 아스키 코드 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
