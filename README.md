@@ -1,2 +1,18 @@
-# js-algorithm
-자바 스크립트 알고리즘
+# 자바 스크립트 알고리즘
+
+### 팁
+
+- ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
+
+### Math[링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+- Math.ceil(n) : n의 소수점 자리를 올림 수 반환
+- Math.abs(n) : n의 절댓값 반환
+- Math.round(n) : n을 반올림 수 반환
+- Math.sqrt(n) : n의 제곱근 반환
+- Math.min(...arr) : arr의 최솟값 반환
+
+### 시스템 최댓값 최솟값
+
+- Number.MAX_SAFE_INTEGER : 시스템 최댓값
+- Number.MIN_SAFE_INTEGER : 시스템 최솟값
