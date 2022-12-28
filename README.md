@@ -5,6 +5,7 @@
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
 - arr.splice(i,1) : arr배열에서 i번째 요소를 1개 삭제
+- str.replace(/A/g,"#") : str문자열에서 A를 모두 #으로 바꿔서 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
