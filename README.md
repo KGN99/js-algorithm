@@ -10,6 +10,7 @@
 - str.toUpperCase() : str문자를 대문자로 변경
 - str.toLowerCase() : str문자를 소문자로 변경
 - str.charCodeAt() : str의 아스키 코드 반환
+- String.fromCharCode(char) : 아스키 코드인 char를 문자로 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
