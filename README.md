@@ -3,6 +3,7 @@
 ### 팁
 
 - parseInt(f) : f를 Int로 형변환
+- isNaN(n) : n 문자가 숫자인지 판별
 
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
