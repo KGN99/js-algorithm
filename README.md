@@ -3,9 +3,13 @@
 ### 팁
 
 - parseInt(f) : f를 Int로 형변환
+
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
 - arr.splice(i,1) : arr배열에서 i번째 요소를 1개 삭제
+- arr.reverse() : 배열의 순서를 뒤집어서 반환
+- arr.join('') : 배열의 문자 요소들 사이에 ""를 조인 시켜서 반환
+
 - str.replace(/A/g,"#") : str문자열에서 A를 모두 #으로 바꿔서 반환
 - str.split("ex") : str문자열에서 "ex"를 기준으로 배열로 분리시켜서 반환 (마지막에 "" 추가됨)
 - str.toUpperCase() : str문자를 대문자로 변경
@@ -15,10 +19,11 @@
 - str.substring(n,m) : 문자열 n번부터 m-1번까지의 문자열로 반환
 - str.substr(n,2) : 문자열 n번부터 n번 다음 2번째까지의 문자열로 반환
 - str.indexOf(s) : str에서 s의 첫번째 인덱스 값 반환 없으면 -1 반환
+- str.replace(/[^a-z]/g,'') : 알파벳 소문자가 아닌 문자는 다 ""로 치환
+- str.replace(/[^a-z]/g,'') : 알파벳이 아닌 문자는 다 ""로 치환
+
 - Array.from({length:n},()=>1) : 1이 n 길이만큼 들어가 있는 리스트 반환
 - Array.from({length: 5}, (undefined, i) => i) === [0,1,2,3,4]
-- arr.reverse() : 배열의 순서를 뒤집어서 반환
-- arr.join('') : 배열의 문자 요소들 사이에 ""를 조인 시켜서 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
