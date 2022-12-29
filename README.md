@@ -17,6 +17,8 @@
 - str.indexOf(s) : str에서 s의 첫번째 인덱스 값 반환 없으면 -1 반환
 - Array.from({length:n},()=>1) : 1이 n 길이만큼 들어가 있는 리스트 반환
 - Array.from({length: 5}, (undefined, i) => i) === [0,1,2,3,4]
+- arr.reverse() : 배열의 순서를 뒤집어서 반환
+- arr.join('') : 배열의 문자 요소들 사이에 ""를 조인 시켜서 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
