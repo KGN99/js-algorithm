@@ -4,7 +4,8 @@
 
 - parseInt(f) : f를 Int로 형변환
 - isNaN(n) : n 문자가 숫자인지 판별
-- new Set() : set 초기화
+- new Set() : set 자료구조 초기화
+- new Map() : map 자료구조 초기화
 
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
@@ -14,6 +15,10 @@
 - arr.sort() : 배열을 정렬
 - arr.sort((a,b) => b - a) : 배열을 내림차순으로 정렬
 - arr.slice(a,b) : 배열의 a번부터 b-1번까지 반환
+
+- map.set(k,i) : map 자료구조에 { k : i } 저장 or 추가 or 변경
+- map.get(k) : map 자료구조에서 k의 value 반환
+- map.has(k) : map 자료구조에서 k, key값이 있는지 확인
 
 - str.replace(/A/g,"#") : str문자열에서 A를 모두 #으로 바꿔서 반환
 - str.split("ex") : str문자열에서 "ex"를 기준으로 배열로 분리시켜서 반환 (마지막에 "" 추가됨)
