@@ -4,6 +4,7 @@
 
 - parseInt(f) : f를 Int로 형변환
 - isNaN(n) : n 문자가 숫자인지 판별
+- new Set() : set 초기화
 
 - ...arr : arr의 배열을 전개한다(ex: [1,2,3] => 1,2,3)
 - arr.reduce((a,b) => a+b,0) : arr 배열의 총 합 반환
@@ -27,6 +28,7 @@
 
 - Array.from({length:n},()=>1) : 1이 n 길이만큼 들어가 있는 리스트 반환
 - Array.from({length: 5}, (undefined, i) => i) === [0,1,2,3,4]
+- Array.from(set) : set을 배열로 반환
 
 ### Math [링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
