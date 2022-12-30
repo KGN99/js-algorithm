@@ -10,6 +10,8 @@
 - arr.splice(i,1) : arr배열에서 i번째 요소를 1개 삭제
 - arr.reverse() : 배열의 순서를 뒤집어서 반환
 - arr.join('') : 배열의 문자 요소들 사이에 ""를 조인 시켜서 반환
+- arr.sort() : 배열을 정렬
+- arr.sort((a,b) => b - a) : 배열을 내림차순으로 정렬
 
 - str.replace(/A/g,"#") : str문자열에서 A를 모두 #으로 바꿔서 반환
 - str.split("ex") : str문자열에서 "ex"를 기준으로 배열로 분리시켜서 반환 (마지막에 "" 추가됨)
