@@ -34,6 +34,7 @@
 - str.replace(/[^a-z]/g,'') : 알파벳 소문자가 아닌 문자는 다 ""로 치환
 - str.replace(/[^a-z]/g,'') : 알파벳이 아닌 문자는 다 ""로 치환
 - isNaN(str) : str이 숫자가 아닌지 판단
+- str.inculdes(x) : 문자열에 x 문자가 포함되어 있는지 확인
 
 - Array.from({length:n},()=>1) : 1이 n 길이만큼 들어가 있는 리스트 반환
 - Array.from({length: 5}, (undefined, i) => i) === [0,1,2,3,4]
