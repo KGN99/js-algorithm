@@ -16,6 +16,7 @@
 - arr.sort((a,b) => b - a) : 배열을 내림차순으로 정렬
 - arr.slice(a,b) : 배열의 a번부터 b-1번까지 반환
 - arr.forEach(x => {}) : 배열의 요소를 하나하나를 x로 치환하여 반복문 실행
+- arr.shift() : 배열의 맨 앞의 요소를 꺼냄
 
 - map.set(k,i) : map 자료구조에 { k : i } 저장 or 추가 or 변경
 - map.get(k) : map 자료구조에서 k의 value 반환
